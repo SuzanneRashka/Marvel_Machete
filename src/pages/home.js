@@ -1,26 +1,21 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+import Bside from '../components/bside/bside';
 import '../App.css';
 
 class Home extends React.Component {
     render() {
         return (
             <div>
-                <div className="sidenav">
-                    <a href="#about">About</a>
-                    <a href="#services">Services</a>
-                    <a href="#clients">Clients</a>
-                    <a href="#contact">Contact</a>
-
-                </div>
+                <Bside />
                 <div className="container content">
                     <div>
                         <h1>Marvel Machete</h1>
                         <p>This is a movies only list. Click on the movie to be taken to the movies individual page for more information. </p>
-
                     </div>
                     <h2>Phase 1</h2>
                     <ul>
-                        <li>Captain America: The First Avenger</li>
+                        <li><Link to="/Captain-America:-The-First-Avenger">Captain America: The First Avenger</Link></li>
                         <li>Iron Man</li>
                         <li>Iron Man 2</li>
                         <li>The Incredible Hulk</li>
