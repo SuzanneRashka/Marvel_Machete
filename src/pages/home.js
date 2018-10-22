@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import Bside from '../components/bside/bside';
+import logos from '../api/logos';
 import '../App.css';
 
 class Home extends React.Component {
     render() {
         return (
             <div>
-                <Bside />
+                <Bside logos={logos} />
                 <div className="container content">
                     <div>
                         <h1>Marvel Machete</h1>
@@ -16,7 +17,7 @@ class Home extends React.Component {
                     <h2>Phase 1</h2>
                     <ul>
                         <li><Link to="/Captain-America:-The-First-Avenger">Captain America: The First Avenger</Link></li>
-                        <li>Iron Man</li>
+                        <li><Link to="/Iron-Man">Iron Man</Link></li>
                         <li>Iron Man 2</li>
                         <li>The Incredible Hulk</li>
                         <p>- if tony stark is mentioned as a cunsultant for sheild, that happened in im2 and tih would have to follow</p>
