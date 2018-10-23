@@ -1,5 +1,17 @@
+/* 
+Headers - font-family: 'Nanum Gothic', sans-serif;
+Paragraphs - font-family: 'Black Han Sans', sans-serif; 
+Marvel Red = #F12323;
+ */
+
 .navbar {
-    background-color: mediumorchid;
+    background-color: #000;
+}
+
+.navbar span {
+    color: #F12323;
+    font-size: 3em;
+    font-family: 'Black Han Sans', sans-serif;
 }
 
 .marvel-img {
