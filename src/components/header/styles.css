@@ -10,11 +10,11 @@ Marvel Red = #F12323;
 
 .navbar span {
     color: #F12323;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'Black Han Sans', sans-serif;
 }
 
 .marvel-img {
-    height: 60px;
-    Width: auto;
+    height: auto;
+    Width: 50%;
 }
