@@ -2,8 +2,14 @@ body {
   background-color: lightgray;
 }
 
+.buffer {
+  margin: 5% 0;
+  padding: 5% 0;
+}
 
 .content {
   margin: 10%;
   padding-right: 250px;
 }
+
+/* At 768, center all components */

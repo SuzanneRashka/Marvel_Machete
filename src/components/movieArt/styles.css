@@ -1,0 +1,6 @@
+.movieArt img {
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.2);
+    margin: auto;
+}
