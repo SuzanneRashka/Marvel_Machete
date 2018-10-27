@@ -5,8 +5,6 @@ import Home from './pages/home';
 import Captain1 from './pages/captain1';
 import IronMan1 from './pages/ironman1';
 
-// <Route path="movie/:moviename" component={Movie} />
-
 class App extends Component {
   render() {
     return (

@@ -1,5 +1,11 @@
+/* Headers - font-family: 'Nanum Gothic', sans-serif;
+Paragraphs - font-family: 'Black Han Sans', sans-serif; 
+Marvel Red = #F12323; */
+
 body {
-  background-color: lightgray;
+  background-color: black;
+  position: relative;
+  color: white;
 }
 
 .buffer {
@@ -13,3 +19,10 @@ body {
 }
 
 /* At 768, center all components */
+
+/* Captain America: The Frist Avenger */
+.c1-gradient {
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, grey, #c90606);
+}
