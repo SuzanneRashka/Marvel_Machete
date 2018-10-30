@@ -1,12 +1,23 @@
 /* Headers - font-family: 'Nanum Gothic', sans-serif;
 Paragraphs - font-family: 'Black Han Sans', sans-serif; 
 Marvel Red = #F12323; */
+html {
+  /* overflow: hidden; */
+}
 
 body {
   background-color: black;
+  height: 100%;
   position: relative;
   color: white;
+  z-index: 1;
 }
+
+.navbar {
+  position: relative;
+  z-index: 3 !important;
+}
+
 
 .buffer {
   margin: 5% 0;
@@ -18,6 +29,16 @@ body {
   padding-right: 250px;
 }
 
+.image img {
+  position: absolute;
+  z-index: 1 !important;
+}
+
+.text {
+  position: relative;
+  z-index: 3 !important;
+}
+
 /* At 768, center all components */
 
 /* Captain America: The Frist Avenger */
@@ -25,4 +46,25 @@ body {
   height: auto;
   width: 100%;
   background-image: linear-gradient(to bottom right, grey, #c90606);
+}
+
+.redskull img {
+  width: 50%;
+  bottom: 8px;
+  right: 20px;
+}
+
+.tesseract img {
+  width: 30%;
+  top: 100px;
+  right: 10px;
+  transform: rotate(20deg);
+}
+
+/* Iron Man */
+.im1-gradient {
+  height: auto;
+  width: 100%;
+  /* background-color: gray; */
+  background-image: linear-gradient(left, #F12323, gold);
 }

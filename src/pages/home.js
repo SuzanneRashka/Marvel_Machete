@@ -18,7 +18,7 @@ class Home extends React.Component {
                     <ul>
                         <li><Link to="/Captain-America:-The-First-Avenger">Captain America: The First Avenger</Link></li>
                         <li><Link to="/Iron-Man">Iron Man</Link></li>
-                        <li>Iron Man 2</li>
+                        <li><Link to="/Iron-Man-2">Iron Man 2</Link></li>
                         <li>The Incredible Hulk</li>
                         <p>- if tony stark is mentioned as a cunsultant for sheild, that happened in im2 and tih would have to follow</p>
                         <li>Thor</li>

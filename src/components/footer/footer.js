@@ -6,7 +6,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="navbar">
-                <Link to="/Iron-Man"><span className="title">Next -->
+                <Link to={this.props.to}><span className="title">Next -->
                     {this.props.title}
                 </span></Link>
                 <div>
