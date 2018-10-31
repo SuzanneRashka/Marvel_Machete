@@ -7,9 +7,9 @@ import '../App.css';
 class Home extends React.Component {
     render() {
         return (
-            <div className="">
+            <div>
                 <Bside logos={logos} />
-                <div className="container content stars">
+                <div className="content stars">
                     <div>
                         <h1>Marvel Machete</h1>
                         <p>This is a movies only list. Click on the movie to be taken to the movies individual page for more information. </p>

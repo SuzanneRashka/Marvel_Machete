@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
 import '../App.css';
 import API from '../api/API';
 import { Container, Row, Col } from "../components/grid";

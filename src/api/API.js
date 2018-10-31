@@ -1,5 +1,5 @@
 import axios from "axios";
-export const KEY = process.env.SECRET_KEY;
+export const KEY = process.env.REACT_APP_SECRET_KEY;
 const BASEURL = "http://www.omdbapi.com/?t=";
 const APIKEY = "&y=&plot=short&apikey=";
 
@@ -9,6 +9,6 @@ console.log(KEY + " KEY");
 
 export default {
     search: function (query) {
-        return axios.get(BASEURL + query + APIKEY);
+        return axios.get(BASEURL + query + APIKEY + KEY);
     }
 };

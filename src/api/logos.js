@@ -8,9 +8,9 @@ const logos = [
         alt: 'Iron Man 2',
         link: '/Iron-Man-2'
     }, {
-        img: '../images/Ironman.png',
-        alt: 'Iron Man',
-        link: '/Iron-Man'
+        img: '../images/Ironman2.png',
+        alt: 'Iron Man 2',
+        link: '/Iron-Man-2'
     }
 ]
 
