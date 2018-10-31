@@ -10,6 +10,7 @@ class Bside extends Component {
 
         return (
             <div className="sidenav">
+                <h5>List by release date</h5>
                 {logos.map((logo) => {
                     return (
 
@@ -20,8 +21,7 @@ class Bside extends Component {
                         </div>
                     )
                 })}
-                <Link to="/Captain-America:-The-First-Avenger">Captain1</Link>
-                <Link to="/Iron-Man">Iron Man</Link>
+
             </div>
         )
     }
