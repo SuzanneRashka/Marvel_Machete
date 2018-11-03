@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 class Header extends Component {
     render() {
         return (
-            <div className="navbar">
+            <div className="navbar mb-5">
                 <Link to="/"><img className="marvel-img" src="/images/marvel.png" alt="marvel"></img></Link>
                 <div>
                     <span className="title">

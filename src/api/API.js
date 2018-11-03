@@ -1,11 +1,9 @@
 import axios from "axios";
-export const KEY = process.env.REACT_APP_SECRET_KEY;
 const BASEURL = "http://www.omdbapi.com/?t=";
 const APIKEY = "&y=&plot=short&apikey=";
+export const KEY = process.env.REACT_APP_SECRET_KEY;
 
-require('dotenv/config');
-
-console.log(KEY + " KEY");
+require('dotenv').config();
 
 export default {
     search: function (query) {

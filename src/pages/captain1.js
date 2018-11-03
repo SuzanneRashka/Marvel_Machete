@@ -31,11 +31,11 @@ class Captain1 extends Component {
     render() {
         return (
             <div className="c1-gradient">
-                <Header title={"Captain America: The First Avenger"} />
+                <Header title={query} />
                 <Container>
                     <Row>
                         <Col size="md-6">
-                            <div>
+                            <div className="p-4">
                                 <MovieArt src={this.state.result.Poster} />
                             </div>
                         </Col>
@@ -43,18 +43,22 @@ class Captain1 extends Component {
                             <div className="image tesseract">
                                 <img src="/images/tesseract.png" alt="" />
                             </div>
-                            <div className="text pt-5">
-                                <Synopsys plot={this.state.result.Plot} />
-                                <h3>In A Nut Shell</h3>
-                                <p>
-                                    Movie opens finding Captain America buried in ice, which by the end of the movie, explains how he got there. Steve Rogers enters the military and is selected for special program to enhance soldiers. The doctor who turned him into his bigger self, Dr. Erskine, dies to which Rogers gives chase and finds out about HYDRA. After he is sent overseas as propaganda, he learns of Buckys captured unit and goes in after him. Rogers saves the unit but Red Skull gets away. Figures, right? Back home, everyone comes together and devises a new plan. The new team sets out in the frigid mountains where Bucky doesn't make it. With newly filled revenge, Cap goes after Red Skull in a runway/tunnel that would make the Fast and Furious crew jealous. In the final scenes, Red Scull is holding the tesseract which destroys him as we find out later and Rogers has no choice but to bury the payload and himself in the ice.
+                            <div className="text p-4">
+                                <div>
+                                    <Synopsys plot={this.state.result.Plot} />
+                                </div>
+                                <div>
+                                    <h3 className="wrap pt-5">In A Nut Shell</h3>
+                                    <p>
+                                        Movie opens finding Captain America buried in ice, which by the end of the movie, explains how he got there. Steve Rogers enters the military and is selected for special program to enhance soldiers. The doctor who turned him into his bigger self, Dr. Erskine, dies to which Rogers gives chase and finds out about HYDRA. After he is sent overseas as propaganda, he learns of Buckys captured unit and goes in after him. Rogers saves the unit but Red Skull gets away. Figures, right? Back home, everyone comes together and devises a new plan. The new team sets out in the frigid mountains where Bucky doesn't make it. With newly filled revenge, Cap goes after Red Skull in a runway/tunnel that would make the Fast and Furious crew jealous. In the final scenes, Red Scull is holding the tesseract which destroys him as we find out later and Rogers has no choice but to bury the explosive payload and himself in the ice.
                                 </p>
+                                </div>
                             </div>
                         </Col>
                     </Row>
                     <Row>
                         <Col size="md-6" >
-                            <div className="text">
+                            <div className="text p-4">
                                 <h3>Easter Eggs</h3>
                                 <ol>
                                     <li><strong>Tree of Life</strong> - An etching refrencing Yggdrasil that appears in CA:TFA as well as Thor that is the basis of all Norse legends. Shown in Thor opening credits as cosmic interweb of cosmic stuff.</li>
@@ -69,12 +73,18 @@ class Captain1 extends Component {
                             </div>
                         </Col>
                         <Col size="md-6">
-                            <Actors actors={this.state.result.Actors} director={this.state.result.Director} />
-                            <h3 className="text">End Clips</h3>
-                            <ul className="text">
-                                <li>Rogers boxing talking with Nick Fury about the changed world. </li>
-                                <li>Avengers trailer</li>
-                            </ul>
+                            <div className="text p-4">
+                                <Actors actors={this.state.result.Actors} director={this.state.result.Director} />
+                                <h3>End Clips</h3>
+                                <ul>
+                                    <li>Rogers boxing talking with Nick Fury about the changed world. </li>
+                                    <li>Avengers trailer</li>
+                                </ul>
+                                <h3>Infinity Stone(s)</h3>
+                                <ul className="no-bullet">
+                                    <li>The Space Stone (Tesseract)</li>
+                                </ul>
+                            </div>
                         </Col>
                     </Row>
                     <Row>

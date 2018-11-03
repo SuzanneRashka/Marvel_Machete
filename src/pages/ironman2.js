@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import '../App.css';
 import API from '../api/API';
-// import { Container, Row, Col } from "../components/grid";
-// import Header from '../components/header/header';
-// import Footer from '../components/footer/footer';
-// import MovieArt from '../components/movieArt/movieArt';
+import { Container, Row, Col } from "../components/grid";
+import Header from '../components/header/header';
+import Footer from '../components/footer/footer';
+import MovieArt from '../components/movieArt/movieArt';
 // import Synopsys from '../components/synopsys/synopsys';
 // import Actors from '../components/actors/actors';
 const query = "Iron Man 2";
@@ -15,8 +15,6 @@ class IronMan2 extends Component {
         result: {},
         search: ""
     };
-
-    // const query = "Captain America: The First Avenger";
 
     searchMovies = query => {
         API.search(query)
@@ -31,9 +29,18 @@ class IronMan2 extends Component {
     render() {
         return (
             <div>
-                Hello
+                <Header title={query} />
+                <Container>
+                    <Row>
+                        <Col size="md-6">
+                            <div>
+                                <MovieArt src={this.state.result.Poster} />
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+                <Footer title={" The Incredible Hulk"} to="/The-Incredible-Hulk" />
             </div>
-
         )
     }
 }

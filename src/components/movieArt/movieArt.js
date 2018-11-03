@@ -3,7 +3,7 @@ import './styles.css';
 
 const MovieArt = props => (
 
-    <div className="movieArt buffer">
+    <div className="movieArt">
         <img
             alt={props.title}
             src={props.src}

@@ -1,5 +1,6 @@
 /* Headers - font-family: 'Nanum Gothic', sans-serif;
 Paragraphs - font-family: 'Black Han Sans', sans-serif; 
+
 Marvel Red = #F12323; */
 
 
@@ -14,11 +15,6 @@ body {
   z-index: 3 !important;
 }
 
-.buffer {
-  margin: 5% 0;
-  padding: 5% 0;
-}
-
 .content {
   padding: 10%;
   padding-right: 250px;
@@ -26,7 +22,7 @@ body {
 
 .image img {
   position: absolute;
-  z-index: 1 !important;
+  z-index: 2 !important;
 }
 
 .text {
@@ -34,7 +30,26 @@ body {
   z-index: 3 !important;
 }
 
-/* At 768, center all components */
+.no-bullet {
+  list-style-type: none;
+}
+
+/* MAIN */
+.stars {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.stars {
+  background: #000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index: 0;
+}
 
 /* Captain America: The Frist Avenger */
 .c1-gradient {
@@ -58,29 +73,31 @@ body {
 }
 
 /* Iron Man */
-.im1-gradient {
+
+.im1 {
+  background: url('https://image.freepik.com/free-vector/no-translate-detected_46250-347.jpg') no-repeat center fixed;
+  background-size: cover;
   height: auto;
   width: 100%;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eab92d+0,ba1013+28,c79810+100 */
-  background: #eab92d;
-  background: -moz-linear-gradient(45deg, #eab92d 0%, #ba1013 28%, #c79810 100%);
-  background: -webkit-linear-gradient(45deg, #eab92d 0%, #ba1013 28%, #c79810 100%);
-  background: linear-gradient(225deg, #eab92d 0%, #ba1013 28%, #c79810 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eab92d', endColorstr='#c79810', GradientType=1);
-}
-
-.stars {
   position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
 }
 
-.stars {
-  background: #000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
-  z-index: 0;
+.iron-monger img {
+  width: 50%;
+  bottom: 8px;
+  left: 20px;
+}
+
+@media (max-width: 768px) {
+  .redskull img {
+    width: 50%;
+    left: 25%;
+  }
+}
+
+@media (max-width: 992px) {
+  .iron-monger img {
+    width: 80%;
+    margin: auto;
+  }
 }
