@@ -12,7 +12,7 @@ class Home extends React.Component {
                 <div className="content stars">
                     <div>
                         <h1>Marvel Machete</h1>
-                        <p>This is a movies only list. Click on the movie to be taken to the movies individual page for more information. </p>
+                        <p>This is a movies only list. Click on the movie to be taken to the movies individual page for more information. This order does not follow the order that Wikipedia has. I'm working on the research to determine if there is a true different or if some of these movies generally happen in the same time space and are basicly close enough.</p>
                     </div>
                     <h2>Phase 1</h2>
                     <ul>
@@ -20,7 +20,7 @@ class Home extends React.Component {
                         <li><Link to="/Iron-Man">Iron Man</Link></li>
                         <li><Link to="/Iron-Man-2">Iron Man 2</Link></li>
                         <li>The Incredible Hulk</li>
-                        <p>- if tony stark is mentioned as a cunsultant for sheild, that happened in im2 and tih would have to follow</p>
+                        <p>- if tony stark is mentioned as a consultant for SHIELD, that happened in IM2 and IH would have to follow</p>
                         <li>Thor</li>
                         <li>The Avengers</li>
                     </ul>
