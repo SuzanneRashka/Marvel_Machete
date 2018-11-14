@@ -10,7 +10,6 @@ class Bside extends Component {
 
         return (
             <div className="sidenav">
-                <h5>List by release date</h5>
                 {logos.map((logo) => {
                     return (
 
@@ -28,5 +27,3 @@ class Bside extends Component {
 }
 
 export default Bside;
-
-

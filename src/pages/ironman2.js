@@ -39,7 +39,7 @@ class IronMan2 extends Component {
                         </Col>
                     </Row>
                 </Container>
-                <Footer title={" The Incredible Hulk"} to="/The-Incredible-Hulk" />
+                <Footer title={" Thor"} to="/Thor" />
             </div>
         )
     }

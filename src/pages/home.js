@@ -16,12 +16,12 @@ class Home extends React.Component {
                     </div>
                     <h2>Phase 1</h2>
                     <ul>
-                        <li><Link to="/Captain-America:-The-First-Avenger">Captain America: The First Avenger</Link></li>
+
                         <li><Link to="/Iron-Man">Iron Man</Link></li>
-                        <li><Link to="/Iron-Man-2">Iron Man 2</Link></li>
                         <li>The Incredible Hulk</li>
-                        <p>- if tony stark is mentioned as a consultant for SHIELD, that happened in IM2 and IH would have to follow</p>
+                        <li><Link to="/Iron-Man-2">Iron Man 2</Link></li>
                         <li>Thor</li>
+                        <li><Link to="/Captain-America:-The-First-Avenger">Captain America: The First Avenger</Link></li>
                         <li>The Avengers</li>
                     </ul>
 
@@ -31,7 +31,6 @@ class Home extends React.Component {
                         <li>Thor: The Dark World</li>
                         <li>Captain America: The Winter Soldier</li>
                         <li>Guardians of the Galaxy</li>
-                        <li>Guardians of the Galaxy: Vol 2</li>
                         <li>Avengers: Age of Ultron</li>
                         <li>Ant-Man</li>
                     </ul>
@@ -39,12 +38,13 @@ class Home extends React.Component {
                     <h2>Phase 3</h2>
                     <ul>
                         <li>Captain America: Civil War</li>
-                        <li>Black Panther</li>
                         <li>Doctor Strange</li>
+                        <li>Guardians of the Galaxy: Vol 2</li>
                         <li>Spider-Man: Homecoming</li>
-                        <li>Ant-Man and the Wasp</li>
                         <li>Thor: Ragnarok</li>
+                        <li>Black Panther</li>
                         <li>Avengers: Infinity War</li>
+                        <li>Ant-Man and the Wasp</li>
                         <li>Captain Marvel</li>
                         <li>Avengers: Untitled</li>
                     </ul>
