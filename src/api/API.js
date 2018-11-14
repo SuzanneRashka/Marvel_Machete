@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASEURL = "http://www.omdbapi.com/?t=";
+const BASEURL = "https://www.omdbapi.com/?t=";
 const APIKEY = "&y=&plot=short&apikey=";
 export const KEY = process.env.REACT_APP_SECRET_KEY;
 
