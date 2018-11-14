@@ -12,11 +12,10 @@ class Home extends React.Component {
                 <div className="content stars">
                     <div>
                         <h1>Marvel Machete</h1>
-                        <p>This is a movies only list. Click on the movie to be taken to the movies individual page for more information. This order does not follow the order that Wikipedia has. I'm working on the research to determine if there is a true different or if some of these movies generally happen in the same time space and are basicly close enough.</p>
+                        <p>This is a movies only list. Click on the movie to be taken to the movies individual page for more information. The right side contains all the movies listed in an alphabet list. I made this site to practice React and to work on different CSS elements and to have each movie be visually better than the last. (Hopefully!) </p>
                     </div>
                     <h2>Phase 1</h2>
                     <ul>
-
                         <li><Link to="/Iron-Man">Iron Man</Link></li>
                         <li>The Incredible Hulk</li>
                         <li><Link to="/Iron-Man-2">Iron Man 2</Link></li>
