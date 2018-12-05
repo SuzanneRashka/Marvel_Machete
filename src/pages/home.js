@@ -12,12 +12,12 @@ class Home extends React.Component {
                 <div className="content stars">
                     <div>
                         <h1>Marvel Machete</h1>
-                        <p>This is a movies only list. Click on the movie to be taken to the movies individual page for more information. The right side contains all the movies listed in an alphabet list. I made this site to practice React and to work on different CSS elements and to have each movie be visually better than the last. (Hopefully!) </p>
+                        <p>This is a movies only list. Click on the movie to be taken to the the individual page for more information. The right side contains all the movies listed in an alphabet list. I made this site to practice React and to work on different CSS elements.</p>
                     </div>
                     <h2>Phase 1</h2>
                     <ul>
                         <li><Link to="/Iron-Man">Iron Man</Link></li>
-                        <li>The Incredible Hulk</li>
+                        <li><Link to="/The-Incredible-Hulk">The Incredible Hulk</Link></li>
                         <li><Link to="/Iron-Man-2">Iron Man 2</Link></li>
                         <li>Thor</li>
                         <li><Link to="/Captain-America:-The-First-Avenger">Captain America: The First Avenger</Link></li>
@@ -56,3 +56,5 @@ class Home extends React.Component {
 export default Home;
 
 // https://overmental.com/content/the-definitive-chronological-viewing-order-for-the-marvel-cinematic-universe-16866
+
+// https://codepen.io/saransh/pen/BKJun

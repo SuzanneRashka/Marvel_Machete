@@ -12,7 +12,6 @@ class Bside extends Component {
             <div className="sidenav">
                 {logos.map((logo) => {
                     return (
-
                         <div>
                             <Link to={logo.link}>
                                 <img src={logo.img} alt={logo.alt} />
@@ -20,7 +19,6 @@ class Bside extends Component {
                         </div>
                     )
                 })}
-
             </div>
         )
     }
