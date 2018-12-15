@@ -15,17 +15,17 @@ class Home extends React.Component {
                         <p>This is a movies only list. Click on the movie to be taken to the the individual page for more information. The right side contains all the movies listed in an alphabet list. I made this site to practice React and to work on different CSS elements.</p>
                     </div>
                     <h2>Phase 1</h2>
-                    <ul>
+                    <ul className="no-bullet">
                         <li><Link to="/Iron-Man">Iron Man</Link></li>
-                        <li><Link to="/The-Incredible-Hulk">The Incredible Hulk</Link></li>
-                        <li><Link to="/Iron-Man-2">Iron Man 2</Link></li>
+                        <li>The Incredible Hulk</li>
+                        <li>Iron Man 2</li>
                         <li>Thor</li>
                         <li><Link to="/Captain-America:-The-First-Avenger">Captain America: The First Avenger</Link></li>
                         <li>The Avengers</li>
                     </ul>
 
                     <h2>Phase 2</h2>
-                    <ul>
+                    <ul className="no-bullet">
                         <li>Iron Man 3</li>
                         <li>Thor: The Dark World</li>
                         <li>Captain America: The Winter Soldier</li>
@@ -35,7 +35,7 @@ class Home extends React.Component {
                     </ul>
 
                     <h2>Phase 3</h2>
-                    <ul>
+                    <ul className="no-bullet">
                         <li>Captain America: Civil War</li>
                         <li>Doctor Strange</li>
                         <li>Guardians of the Galaxy: Vol 2</li>
@@ -45,7 +45,7 @@ class Home extends React.Component {
                         <li>Avengers: Infinity War</li>
                         <li>Ant-Man and the Wasp</li>
                         <li>Captain Marvel</li>
-                        <li>Avengers: Untitled</li>
+                        <li>Avengers: EndGame</li>
                     </ul>
                 </div>
             </div>

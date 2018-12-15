@@ -22,7 +22,7 @@ const logos = [
     }, {
         img: '../images/b-side/Avengers4.png',
         alt: 'Avengers4',
-        link: '/Avengers:-Unnamed'
+        link: '/Avengers:-EndGame'
     }, {
         img: '../images/b-side/BlackP1.png',
         alt: 'Black Panther',
@@ -82,12 +82,12 @@ const logos = [
         link: '/Thor'
     }, {
         img: '../images/b-side/Thor2.png',
-        alt: 'Thor',
-        link: '/Thor'
+        alt: 'Thor: The Dark World',
+        link: '/Thor:-The-Dark-World'
     }, {
         img: '../images/b-side/Thor3.png',
-        alt: 'Thor',
-        link: '/Thor'
+        alt: 'Thor: Ragnarok',
+        link: '/Thor:-Ragnarok'
     }
 ]
 

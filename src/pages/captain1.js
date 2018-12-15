@@ -93,7 +93,7 @@ class Captain1 extends Component {
                         </div>
                     </Row>
                 </Container>
-                <Footer title={" Iron Man"} to={"/Iron-Man"}></Footer>
+                <Footer title={" The Avengers"} to={"/The-Avengers"}></Footer>
             </div>
         )
     }
