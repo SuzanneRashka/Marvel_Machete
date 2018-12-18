@@ -5,6 +5,7 @@ import { Container, Row, Col } from "../components/grid";
 import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
 import MovieArt from '../components/movieArt/movieArt';
+import HulkClick from '../components/hulkClick/hulkClick';
 // import Synopsys from '../components/synopsys/synopsys';
 // import Actors from '../components/actors/actors';
 const query = "The Incredible Hulk";
@@ -35,20 +36,22 @@ class Hulk extends Component {
         this.searchMovies(query);
     };
 
+
     render() {
         return (
             <div>
                 <Header title={query} />
                 <Container>
                     <div className="hulk-main">
-                        <div className="left half">
+                        <div className="left half" id="leftSwipe">
                             <img src="http://desktopwallpaper.info/wp-content/uploads/2018/02/hulk-hd-wallpaper-for-pc.jpg" alt="rollup" />
                         </div>
-                        <div className="right half">
+                        <div className="right half" id="rightSwipe">
                             <img src="http://desktopwallpaper.info/wp-content/uploads/2018/02/hulk-hd-wallpaper-for-pc.jpg" alt="rolldown" />
                         </div>
+                        <HulkClick />
 
-                        <button className="super-button">Enter</button>
+
                         <div className="overlay"></div>
                         <div className="button-line left">
                             <div className="inner"></div>
@@ -61,6 +64,7 @@ class Hulk extends Component {
                     <div className="hulk-inner">
                         <h1>This will be info area</h1>
                     </div>
+
                 </Container>
                 <Footer title={" Iron Man 2"} to={"/Iron-Man-2"}></Footer>
             </div>
