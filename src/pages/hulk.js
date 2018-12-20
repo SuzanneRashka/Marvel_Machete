@@ -44,10 +44,10 @@ class Hulk extends Component {
                 <Container>
                     <div className="hulk-main">
                         <div className="left half" id="leftSwipe">
-                            <img src="http://desktopwallpaper.info/wp-content/uploads/2018/02/hulk-hd-wallpaper-for-pc.jpg" alt="rollup" />
+                            <img src="http://desktopwallpaper.info/wp-content/uploads/2018/02/hulk-hd-wallpaper-for-pc.jpg" alt="hulk" />
                         </div>
                         <div className="right half" id="rightSwipe">
-                            <img src="http://desktopwallpaper.info/wp-content/uploads/2018/02/hulk-hd-wallpaper-for-pc.jpg" alt="rolldown" />
+
                         </div>
                         <HulkClick />
 
