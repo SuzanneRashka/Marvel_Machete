@@ -12,7 +12,7 @@ class Home extends React.Component {
                 <div className="content stars">
                     <div>
                         <h1>Marvel Machete</h1>
-                        <p>This is a movies only list. Click on the movie to be taken to the the individual page for more information. The right side contains all the movies listed in an alphabet list. I made this site to practice React and to work on different CSS elements.</p>
+                        <p>This is a movies only list, no tv shows included. Click on the movie to be taken to the the individual page for more information. The right side contains all the movies listed in an alphabet list. I made this site to practice React and to work on different CSS elements.</p>
                     </div>
                     <h2>Phase 1</h2>
                     <ul className="no-bullet">

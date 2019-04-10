@@ -32,6 +32,7 @@ body {
 
 .no-bullet {
   list-style-type: none;
+  /* padding-left: 0; */
 }
 
 /* MAIN */
@@ -49,6 +50,11 @@ body {
 .stars {
   background: #000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
   z-index: 0;
+}
+
+/* Shared pages */
+.no-indent {
+  padding-left: 0;
 }
 
 /* Captain America: The Frist Avenger */
@@ -87,6 +93,7 @@ body {
   bottom: 8px;
   left: 20px;
 }
+
 
 /* The Hulk */
 
