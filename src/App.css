@@ -57,6 +57,10 @@ body {
   padding-left: 0;
 }
 
+.bullet-indent {
+  padding-left: 5%;
+}
+
 /* Captain America: The Frist Avenger */
 .c1-gradient {
   height: auto;

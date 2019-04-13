@@ -66,8 +66,8 @@ class IronMan extends Component {
                         <Col size="md-6" >
                             <div className="text p-4 gold-bg">
                                 <h3>Easter Eggs</h3>
-                                <ol className="no-indent">
-                                    <li><strong>The Ten Rings</strong> - A group well known in the comics who kidnap Tony.</li>
+                                <ol className="bullet-indent">
+                                    <li><strong>Stan Lee Cameo</strong> -Tony Stark mistakes Lee for Hugh Hefner.</li>
                                     <li><strong>Cheesy Ring Tone</strong> - The ring tone on Rhode's flip phone and played throughout the film references the theme from the classic Iron Man cartoon from 1966.</li>
                                     <li><strong>SpiderMan Connection</strong> - Christine Everhart interviews Tony and works for Vanity Fair.</li>
                                     <li><strong>Jarvis</strong> - Jarvis was the name of the butler that looked after the Avengers Mansion and was intergrated into the films.</li>
