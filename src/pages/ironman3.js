@@ -48,12 +48,10 @@ class IronMan3 extends Component {
                             <p>None mentioned</p>
                             <h3>Easter Eggs</h3>
                             <ol className="bullet-indent">
-                                <li><strong>Stan Lee Cameo</strong> - A man that drinks the tainted soda bottle.</li>
-                                <li><strong>one</strong> - text.</li>
-                                <li><strong>two</strong> - text.</li>
-                                <li><strong>three</strong> - text.</li>
-                                <li><strong>four</strong> - text.</li>
-                                <li><strong>five</strong> - text.</li>
+                                <li><strong>Stan Lee Cameo</strong> - A beauty pageant judge who happily gives one of the contestants a 10.</li>
+                                <li><strong>Dr. Yinsen</strong> - The same guy who saves Tony in Iron Man 1. Makes a direct reference to meeting Stark at a conference in Bern which is the entire opening sequence of Iron Man 3.</li>
+                                <li><strong>End Credits</strong> - Marvel messing with fans making end credits 10 minutes long with bogus names.</li>
+                                <li><strong>Modern Art</strong> - There's a big weird ball of twisted metal sitting in Tony's high-tech lab is actually the remnants of the Formula One race car Tony drove in Iron Man 2.</li>
                             </ol>
                         </Col>
                     </Row>

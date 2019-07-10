@@ -45,15 +45,14 @@ class Avengers1 extends Component {
                             <h3>End Clips</h3>
                             <p>text</p>
                             <h3>Infinity Stone(s)</h3>
-                            <p>None mentioned</p>
+                            <p>Tesseract</p>
                             <h3>Easter Eggs</h3>
                             <ol className="bullet-indent">
-                                <li><strong>Stan Lee Cameo</strong> - A man that drinks the tainted soda bottle.</li>
-                                <li><strong>one</strong> - text.</li>
-                                <li><strong>two</strong> - text.</li>
-                                <li><strong>three</strong> - text.</li>
-                                <li><strong>four</strong> - text.</li>
-                                <li><strong>five</strong> - text.</li>
+                                <li><strong>Stan Lee Cameo</strong> - Chess player in a park in Manhattan.</li>
+                                <li><strong>Project 42</strong> - Coulson leaves behind files for Tony relating to the destruction of Project Pegasus (Captain Marvel).</li>
+                                <li><strong>Huginn and Munnin</strong> - A pair of ravens that fly around acting as Odin's mhystical spies in the sky. They can be seen flying around the mountain peak where Thor and Loki have a heart-to-heart. </li>
+                                <li><strong>Hulk's Suicide Attempt</strong> - When Banner says that he tired to kill himself, but the other guy spit the bullet out is reference to footage shot in Norton's 2008 Hulk but was cut.</li>
+                                <li><strong>Lou Ferrigno's Secret Cameo</strong> - The scream for the Hulk was actually Lou howling from the 70's series.</li>
                             </ol>
                         </Col>
 

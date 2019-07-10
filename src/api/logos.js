@@ -77,6 +77,10 @@ const logos = [
         alt: 'Spider-Man: Homecoming',
         link: '/Spider-Man:-Homecoming'
     }, {
+        img: '../images/b-side/SpiderMan2.jpg',
+        alt: 'Spider-Man: Far From Home',
+        link: '/Spider-Man:-Far-From-Home'
+    }, {
         img: '../images/b-side/Thor.png',
         alt: 'Thor',
         link: '/Thor'

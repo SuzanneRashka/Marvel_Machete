@@ -20,13 +20,14 @@ import AntMan1 from './pages/antman1';
 import Captain3 from './pages/captain3';
 import DrStrange from './pages/strange';
 import Guardians2 from './pages/guardians2';
-import Spiderman1 from './pages/spiderman1.js';
+import Spiderman1 from './pages/spiderman1';
 import Thor3 from './pages/thor3';
 import Panther from './pages/blackpanther';
 import Avengers3 from './pages/avengers3';
 import AntMan2 from './pages/antman2';
 import CapMarvel from './pages/capMarvel';
 import Avengers4 from './pages/avengers4';
+import Spiderman2 from './pages/spiderman2';
 
 // Avengers: EndGame
 
@@ -63,6 +64,7 @@ class App extends Component {
             <Route exact path="/Ant-Man-and-the-Wasp" component={AntMan2} />
             <Route exact path="/Captain-Marvel" component={CapMarvel} />
             <Route exact path="/Avengers:-EndGame" component={Avengers4} />
+            <Route exact path="/Spider-Man:-Far-From-Home" component={Spiderman2} />
 
           </Switch>
         </div>
