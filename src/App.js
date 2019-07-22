@@ -29,9 +29,6 @@ import CapMarvel from './pages/capMarvel';
 import Avengers4 from './pages/avengers4';
 import Spiderman2 from './pages/spiderman2';
 
-// Avengers: EndGame
-
-
 class App extends Component {
   render() {
     return (

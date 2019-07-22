@@ -41,7 +41,7 @@ class Captain1 extends Component {
                         </Col>
                         <Col size="md-6">
                             <div className="image tesseract">
-                                <img src="/images/tesseract.png" alt="" />
+                                <img src="/images/tesseract.png" alt="tesseract" />
                             </div>
                             <div className="text p-4">
                                 <div>

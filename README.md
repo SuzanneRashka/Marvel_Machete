@@ -10,6 +10,6 @@ CSS
 dotenv
 API
 
-page 33
+# Credits
 
 https://overmental.com/content/the-definitive-chronological-viewing-order-for-the-marvel-cinematic-universe-16866

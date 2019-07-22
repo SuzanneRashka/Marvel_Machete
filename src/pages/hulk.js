@@ -9,8 +9,6 @@ import Synopsys from '../components/synopsys/synopsys';
 import Actors from '../components/actors/actors';
 const query = "The Incredible Hulk";
 
-// import HulkClick from '../components/hulkClick/hulkClick';
-
 class Hulk extends Component {
 
     state = {
@@ -30,7 +28,7 @@ class Hulk extends Component {
 
     render() {
         return (
-            <div>
+            <div className="hulk-bg">
                 <Header title={query} />
                 <Container>
                     <Row>
@@ -42,15 +40,24 @@ class Hulk extends Component {
                             <div className="text">
                                 <Synopsys plot={this.state.result.Plot} />
                             </div>
+                            <h3>End Clips</h3>
+                            <p>Tony Stark talks to General Ross about assembling a team.</p>
 
                         </Col>
 
                         <Col size="md-6">
+                            <div className="hulk-box">
+                                <p className="text-box">DAYS WITHOUT INCIDENT 159</p>
+                            </div>
                             <div>
                                 <Actors actors={this.state.result.Actors} director={this.state.result.Director} />
                             </div>
-                            <h3>End Clips</h3>
-                            <p>Tony Stark talks to General Ross about assembling a team.</p>
+                            <div>
+                                <h3 className="wrap">In A Nut Shell</h3>
+                                <p>After surviving a deadly gamma radiation accident, scientist Bruce Banner travels the world in search for a cure to his inner force of rage that turns him into a massive green monster known as the Hulk. Though he is close, Banner must watch out because the malevolent General Ross and his team are searching for him and want to use his condition for military weaponry. Running out of time and options, Banner turns to his old flame Betty Ross for help. Meanwhile, a new threat rises as a power hungry soldier turns into a deadlier and more terrifying beast that can match even the Hulk's powers. ~ Blazer346, imdb.com
+                                </p>
+                            </div>
+
                             <h3>Infinity Stone(s)</h3>
                             <p>None mentioned</p>
                             <h3>Easter Eggs</h3>

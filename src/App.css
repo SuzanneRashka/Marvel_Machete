@@ -101,7 +101,33 @@ body {
 
 /* The Hulk */
 
+.hulk-bg {
+  background: url('https://i.pinimg.com/originals/05/3d/0e/053d0e0e6a047192ab76c94f47355cdd.jpg') no-repeat center fixed;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  position: relative;
+}
 
+div.hulk-box {
+  border: 3px solid black;
+  background-color: grey;
+  position: absolute;
+  top: 50px;
+  right: -20px;
+  width: 150px;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  font-size: 20px;
+}
+
+p.text-box {
+  font-family: "Sarpanch";
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 100%;
+}
 
 @media (max-width: 768px) {
   .redskull img {

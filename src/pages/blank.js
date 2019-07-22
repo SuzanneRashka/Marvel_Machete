@@ -48,7 +48,7 @@ class Hero extends Component {
                             <p>None mentioned</p>
                             <h3>Easter Eggs</h3>
                             <ol className="bullet-indent">
-                                <li><strong>Stan Lee Cameo</strong> - A man that drinks the tainted soda bottle.</li>
+                                <li><strong>Stan Lee Cameo</strong> - .</li>
                                 <li><strong>one</strong> - text.</li>
                                 <li><strong>two</strong> - text.</li>
                                 <li><strong>three</strong> - text.</li>

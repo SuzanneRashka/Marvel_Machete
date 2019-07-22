@@ -22,7 +22,7 @@ class Home extends React.Component {
                                 <h2>Phase 1</h2>
                                 <ul className="no-bullet">
                                     <li><Link to="/Iron-Man">Iron Man</Link></li>
-                                    <li>The Incredible Hulk</li>
+                                    <li><Link to="/The-Incredible-Hulk">The Incredible Hulk</Link></li>
                                     <li>Iron Man 2</li>
                                     <li>Thor</li>
                                     <li><Link to="/Captain-America:-The-First-Avenger">Captain America: The First Avenger</Link></li>
