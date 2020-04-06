@@ -69,14 +69,14 @@ class Home extends React.Component {
                                     <li>Captain America: The First Avenger</li>
                                     <li>Captain Marvel</li>
                                     <li>Iron Man</li>
-                                    <li>Iron Man 2</li>
                                     <li>The Incredible Hulk</li>
+                                    <li>Iron Man 2</li>
                                     <li>Thor</li>
                                     <li>The Avengers</li>
+                                    <li>Iron Man 3</li>
                                     <li>Thor: The Dark World</li>
                                     <li>Guardians of the Galaxy</li>
                                     <li>Guardians of the Galaxy: Vol 2</li>
-                                    <li>Iron Man 3</li>
                                     <li>Captain America: The Winter Soldier</li>
                                     <li>Avengers: Age of Ultron</li>
                                     <li>Ant-Man</li>
